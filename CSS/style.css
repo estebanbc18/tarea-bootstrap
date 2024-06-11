@@ -35,4 +35,31 @@ p{
     text-align: center;
     color: black;
 }
+.flex {
+    display: block;
+    padding: 10px;
+    color: black;
+    transition-duration: 0.7s;
+    text-align: left;
+    width: 100%;
+}
+.flex:hover {
+    cursor: pointer;
+    transform: translate(20px);
+   
+}
+.grid {
+    display: grid;
+    padding: 10px;
+    text-align: left;
+    transition-duration: 0,7s;
+
+}
+.grid:hover {
+    cursor: pointer;
+    transform: translate(20px);
+    
+}
+
+
 
